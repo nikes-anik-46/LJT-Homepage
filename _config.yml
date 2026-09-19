@@ -142,7 +142,7 @@ facebook:
 og_image                 :  # Social media default site image
 og_description           :  # Social media default site image description
 # For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
+# - https://developers.google.com/structured-data/customize-social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
@@ -312,14 +312,14 @@ whitelist:
 
 # Archives
 #  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~gt; type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~gt; type: jekyll-archives
+#  - GitHub Pages compatible archive pages built with Liquid -> type: liquid (default)
+#  - Jekyll Archives plugin archive pages -> type: jekyll-archives
 #  Path (examples)
 #  - Archive page should exist at path when using Liquid method or you can
 #    expect broken links (especially with breadcrumbs enabled)
-#  - ~lt;base_path~/tags/my-awesome-tag/index.html ~gt; path: /tags/
-#  - ~lt;base_path/categories/my-awesome-category/index.html ~gt; path: /categories/
-#  - ~lt;base_path/my-awesome-category/index.html ~gt; path: /
+#  - <base_path>/tags/my-awesome-tag/index.html -> path: /tags/
+#  - <base_path>/categories/my-awesome-category/index.html -> path: /categories/
+#  - <base_path>/my-awesome-category/index.html -> path: /
 category_archive:
   type: liquid
   path: /categories/
