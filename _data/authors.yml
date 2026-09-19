@@ -1,18 +1,12 @@
 # Authors
+# Optional per-page author metadata. The site-wide author (sidebar, contact links) is
+# configured in _config.yml, which is the author that is shown by default.
 
-Name Name:
-  name        : "Name Name"
-  uri         : "https://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
-
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+Junteng Liu:
+  name        : "Junteng Liu"
+  avatar      : "profile.png"
+  email       : "jliugi@connect.ust.hk"
+  bio         : "First-year Ph.D. candidate at the HKUST NLP Group. My research focuses on natural language processing and machine learning."
+  github      : "Vicent0205"
+  twitter     : "junteng88716710"
+  googlescholar : "https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate"
