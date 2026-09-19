@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <!-- Neutral placeholder avatar: replace this file with a real photo of the site owner. -->
+  <rect width="256" height="256" fill="#e3e9f0"/>
+  <circle cx="128" cy="128" r="96" fill="#f7f9fb" stroke="#c7d2dd" stroke-width="3"/>
+  <text x="50%" y="50%" dominant-baseline="central" text-anchor="middle"
+        font-family="Helvetica, Arial, sans-serif" font-size="82" font-weight="600" fill="#3b4c5e">JL</text>
+</svg>
