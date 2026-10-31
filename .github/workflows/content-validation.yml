@@ -1,0 +1,48 @@
+name: Content validation
+
+on:
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.1"
+          bundler-cache: true
+      - name: Build and validate content
+        run: |
+          bundle exec jekyll build
+          echo "=== Publication count ==="
+          count=$(grep -c 'archive__item-title' _site/publications/index.html || true)
+          echo "Found $count publication items"
+          test "$count" -eq 6
+          echo "=== Publication headings ==="
+          grep -Fq "First-Author Publications" _site/publications/index.html
+          grep -Fq "Co-Authored Publications" _site/publications/index.html
+          echo "=== Publication titles ==="
+          while IFS= read -r title; do
+            grep -Fq "$title" _site/publications/index.html && echo "FOUND: $title" || { echo "MISSING: $title"; exit 1; }
+          done <<'EOF'
+          SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond
+          On the Perception Bottleneck of VLMs for Chart Understanding
+          On the Universal Truthfulness Hyperplane Inside LLMs
+          In-Context Sharpness as Alerts: An Inner Representation Perspective for Hallucination Mitigation
+          C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models
+          Composing Parameter-Efficient Modules with Arithmetic Operations
+          EOF
+          echo "=== About page checks ==="
+          grep -Fq "First-year PhD candidate at HKUST NLP Group" _site/index.html
+          grep -Fq "LLM Reasoning and Reinforcement Learning" _site/index.html
+          grep -Fq "Hallucination in Vision-Language Models (VLM)" _site/index.html
+          grep -Fq "LLM truthfulness and Interpretability" _site/index.html
+          grep -Fq "Zhiyuan Honor Scholarship" _site/index.html
+          grep -Fq "jliugi@connect.ust.hk" _site/index.html
+          grep -Fq "https://github.com/Vicent0205" _site/index.html
+          grep -Fq "tbK9jl4AAAAJ" _site/index.html
+          grep -Fq "@junteng88716710" _site/index.html
+          echo "All content checks passed"
