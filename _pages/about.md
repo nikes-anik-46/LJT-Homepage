@@ -32,7 +32,7 @@ First-year PhD candidate at HKUST NLP Group. Research focuses on natural languag
 ## Education
 
 - **Ph.D. in Computer Science (2024-Present)** — Hong Kong University of Science and Technology
-- **B.Eng. (2020-2024)** — Shanghai Jiao Tong University (graduated June 2024)
+- **B.Eng. (2020-2024)** — Shanghai Jiao Tong University (SJTU); graduated in June 2024
 
 ## Research Internships
 
@@ -42,7 +42,7 @@ First-year PhD candidate at HKUST NLP Group. Research focuses on natural languag
 
 ## Honors
 
-- **Zhiyuan Honor Scholarship** — Shanghai Jiao Tong University
+- Received **Zhiyuan Honor Scholarship** at Shanghai Jiao Tong University
 
 ## Skills
 
