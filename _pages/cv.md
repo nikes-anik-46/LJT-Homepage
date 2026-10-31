@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * Ph.D. in Computer Science (2024-Present) at Hong Kong University of Science and Technology
-* B.Eng. (2020-2024) at Shanghai Jiao Tong University (graduated June 2024)
+* B.Eng. (2020-2024) at Shanghai Jiao Tong University (SJTU); graduated in June 2024
 
 Research Internships
 ======
