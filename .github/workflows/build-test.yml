@@ -22,3 +22,17 @@ jobs:
         run: bundle exec jekyll build --trace
         env:
           JEKYLL_ENV: production
+      - name: List generated HTML pages
+        run: find _site -name "*.html" -type f | sort
+      - name: Verify key rendered content
+        run: |
+          echo "--- About page headings ---"
+          grep -o "<h2[^>]*>[^<]*</h2>" _site/index.html || true
+          echo "--- Publications page headings ---"
+          grep -o "<h2[^>]*>[^<]*</h2>" _site/publications/index.html || true
+          echo "--- Publication titles ---"
+          grep -o "<h3[^>]*>[^<]*</h3>" _site/publications/index.html || true
+          echo "--- About mentions ---"
+          grep -c "Zhiyuan Honor Scholarship" _site/index.html || true
+          grep -c "jliugi@connect.ust.hk" _site/index.html || true
+          grep -c "junteng88716710" _site/index.html || true
