@@ -15,7 +15,7 @@ author:
   avatar           : "avatar.svg"
   name             : "Junteng Liu"
   pronouns         :
-  bio              : "First-year Ph.D. candidate at the HKUST NLP Group"
+  bio              : "First-year PhD candidate at the HKUST NLP Group"
   location         :
   employer         : "Hong Kong University of Science and Technology"
   uri              :
@@ -127,7 +127,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : og-image.png
+og_image                 :
 og_description           :
 social:
   type                   :
