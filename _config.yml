@@ -144,7 +144,6 @@ analytics:
 include:
   - .htaccess
   - _pages
-  - files
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -173,6 +172,7 @@ exclude:
   - package.json*
   - Rakefile
   - README
+  - scripts
   - talkmap
   - tmp
   - vendor
