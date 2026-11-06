@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Junteng Liu, a first-year Ph.D. candidate in Computer Science at the Hong Kong University of Science and Technology (HKUST), affiliated with the HKUST NLP Group. My Ph.D. supervisor is Professor Junxian He, who leads the HKUST NLP Group and previously advised me during my undergraduate studies at Shanghai Jiao Tong University.
+I am Junteng Liu, a first-year PhD candidate at the HKUST NLP Group, pursuing a Ph.D. in Computer Science at the Hong Kong University of Science and Technology (HKUST). My Ph.D. supervisor is Professor Junxian He, who leads the HKUST NLP Group and previously advised me during my undergraduate studies at Shanghai Jiao Tong University.
 
 ## Education
 
