@@ -15,7 +15,7 @@ author:
   avatar           : "avatar.svg"
   name             : "Junteng Liu"
   pronouns         :
-  bio              : "First-year PhD candidate at the HKUST NLP Group"
+  bio              : "First-year PhD candidate at HKUST NLP Group"
   location         :
   employer         : "Hong Kong University of Science and Technology"
   uri              :
@@ -153,6 +153,7 @@ exclude:
   - .github
   - .jekyll-assets-cache
   - .sass-cache
+  - AGENTS.md
   - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
@@ -160,16 +161,19 @@ exclude:
   - Capfile
   - config
   - Dockerfile
+  - files
   - Gemfile
   - Gruntfile.js
   - gulpfile.js
   - LICENSE
   - local
   - log
+  - markdown_generator
   - node_modules
   - package.json*
   - Rakefile
   - README
+  - talkmap
   - tmp
   - vendor
 keep_files:
