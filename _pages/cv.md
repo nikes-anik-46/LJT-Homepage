@@ -11,18 +11,18 @@ redirect_from:
 
 Education
 ======
-* Ph.D. in Computer Science, Hong Kong University of Science and Technology, 2024-Present
-* B.Eng., Shanghai Jiao Tong University, 2020-2024
+* Ph.D. in Computer Science (2024-Present), Hong Kong University of Science and Technology
+* B.Eng. (2020-2024), Shanghai Jiao Tong University
 
 Research Experience
 ======
-* Research Intern, MINIMAX, February 2025 - Present
-* Research Intern, Tencent WXG, June 2024 - September 2024
-* Research Intern, Shanghai AI Lab, June 2023 - December 2023
+* Research Intern at MINIMAX (February 2025 - Present)
+* Research Intern at Tencent WXG (June 2024 - September 2024)
+* Research Intern at Shanghai AI Lab (June 2023 - December 2023)
 
 Honors and Awards
 ======
-* Zhiyuan Honor Scholarship, Shanghai Jiao Tong University
+* Zhiyuan Honor Scholarship at Shanghai Jiao Tong University
 
 Publications
 ======
